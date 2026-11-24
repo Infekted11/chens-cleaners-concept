@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "echo 'Unpublished concept: publication requires owner approval.'; exit 1"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
